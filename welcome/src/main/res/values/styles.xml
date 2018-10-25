@@ -1,0 +1,8 @@
+<resources>
+
+    <!--开屏页主题-->
+    <style name="welcome_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@mipmap/welcome_bg</item>
+    </style>
+
+</resources>
