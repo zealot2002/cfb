@@ -19,14 +19,12 @@ import com.zzy.flysp.core.spHelper.SPHelper;
 
 public class MyApplication extends Application {
     private static final String TAG = "MyApplication";
-    private Application app;
 
 /****************************************************************************************************************/
     @Override
     public void onCreate() {
         super.onCreate();
         Log.e(TAG,"onCreate");
-        app = this;
         //init跨进程库
         initMultiProcessCoreLib();
 
@@ -65,7 +63,4 @@ public class MyApplication extends Application {
         }
     }
 
-    public Application getApp() {
-        return app;
-    }
 }
